@@ -20,7 +20,8 @@ const CommunitySharing = () => {
           <Section 
             title="🍲 Food & Assistance" 
             description="Ensuring no one in our community goes hungry." 
-            items={["🥡 Surplus Food Pickup & Redistribution", "🏠 Community Food Banks", "💜 Support for Differently Abled & Pregnant Women"]} 
+            items={["🥡 Surplus Food Pickup & Redistribution", "🏠 Community Food Banks", "💜 Support for Differently Abled & Pregnant Women"]}
+            onClick={() => navigate("/food-assistance")}
           />
           <Section 
             title="🔄 Ongoing Initiatives" 

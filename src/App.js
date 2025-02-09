@@ -13,6 +13,7 @@ function App() {
       <Route path="/special-requests" element={<SpecialRequests />} />
       <Route path="/ongoing-initiatives" element={<OngoingInitiatives />} />
       <Route path="/volunteer-form" element={<VolunteerForm />} />
+      <Route path="/food-assistance" element={<FoodAssistant />} />
     </Routes>
   );
 }
